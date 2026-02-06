@@ -4,6 +4,7 @@ namespace LearnMAUI
 {
     public static class MauiProgram
     {
+        //Точка входа в приложение, загрузка app, добавление шрифтов
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();

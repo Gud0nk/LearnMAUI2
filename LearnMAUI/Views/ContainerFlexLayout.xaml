@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearnMAUI.Views.ContainerFlexLayout"
+             Title="ContainerFlexLayout">
+
+    <ScrollView>
+        <FlexLayout Direction="Column">
+        <Label Text="Первая метка"
+               Margin="10"></Label>
+        <Label Text="Вторая метка"
+               Margin="10"></Label>
+        <Label Text="Третья метка"
+               Margin="10"></Label>
+        <Label Text="Четвертая метка"
+               Margin="10"></Label>
+        <Label Text="Пятая метка"
+               Margin="10"></Label>
+        </FlexLayout>
+    </ScrollView>
+</ContentPage>

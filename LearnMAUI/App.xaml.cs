@@ -11,6 +11,7 @@ namespace LearnMAUI
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
+            // Загружаем оболочку Appshell
             return new Window(new AppShell());
         }
     }
